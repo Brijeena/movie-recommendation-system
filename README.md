@@ -1,9 +1,12 @@
-# movie-recommendation-system
-A collaborative filtering-based recommendation system for movies using TensorFlow.
+# Movie Recommendation System
+A collaborative filtering-based movie recommendation system built using TensorFlow. This project predicts movie ratings for users based on their historical preferences, designed as a prototype for personalized streaming services like Netflix.
 
 ## Features
-- Predicts movie ratings based on user-movie interactions.
-- Built using TensorFlow and Python.
+- Implements a collaborative filtering approach using user and movie embeddings.
+- Predicts user ratings for unseen movies.
+- Trains on the MovieLens dataset, a benchmark for recommendation systems.
+- Evaluates model performance using Mean Squared Error (MSE).
+- Built with Python and TensorFlow, leveraging NumPy and Pandas for data handling.
 
 ## Requirements
 - Python 3.7+
